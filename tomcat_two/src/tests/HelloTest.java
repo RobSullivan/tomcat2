@@ -40,5 +40,18 @@ public class HelloTest {
 		assertEquals(expectedAnswer, actualAnswer);
 		
 	}
+	
+	@Test
+	
+	public void test3(){
+		
+		Hello classUnderTest = new Hello();
+		
+		String expectedAnswer = "What is your name?";
+		String actualAnswer = classUnderTest.nameQuestion();
+		
+		assertEquals(expectedAnswer, actualAnswer);
+		
+	}
 
 }

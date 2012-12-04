@@ -13,6 +13,11 @@ public class Hello {
 	public String goodbye() {
 		return goodbye.getGoodbye();
 	}
+
+	public String nameQuestion() {
+		// TODO Auto-generated method stub
+		return "What is your name?";
+	}
 	
 	
 
