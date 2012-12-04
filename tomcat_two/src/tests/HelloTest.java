@@ -28,5 +28,17 @@ public class HelloTest {
 		
 		assertEquals(expectedAnswer, actualAnswer);
 	}
+	
+	@Test
+	public void test2(){
+		
+		Hello classUnderTest = new Hello();
+		
+		String expectedAnswer = "goodbye";
+		String actualAnswer = classUnderTest.goodbye();
+		
+		assertEquals(expectedAnswer, actualAnswer);
+		
+	}
 
 }
