@@ -7,16 +7,16 @@
                    
      ksull02                                                                
      ====================================================================== -->
-<project name="tomcat_two" default="default">
+<project name="tomcat_two" default="src/code/Hello">
     <description>
-            description
+            Jenkins test project
     </description>
 
     <!-- ================================= 
           target: default              
          ================================= -->
-    <target name="default" depends="depends" description="description">
-        
+    <target name="src/code/Hello" depends="depends" description="Goodbye">
+        <echo>Hello</echo>
     </target>
 
     <!-- - - - - - - - - - - - - - - - - - 
